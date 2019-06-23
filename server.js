@@ -8,8 +8,9 @@ const notify = require('gulp-notify');
 const cssnano = require('gulp-cssnano');
 const plumber = require('gulp-plumber');
 
-const scssFiles = ['./assets/scss/**/*.scss'];
+const scssFiles = ['./assers/scss/**/*.scss'];
 const scssMain = ['./assets/scss/main.scss'];
+
 const pathStyleDest = './assets/css';
 
 // SASS
